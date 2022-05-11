@@ -10,11 +10,17 @@
 
 /* My own classes */
 
-.specialColor, #specialColor {
-	background: linear-gradient(-25deg, #ef32d9, #89fffd) !important;
+#specialColor {
+	background-color: #FFE53B;
+	background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
 	-webkit-background-clip: text !important;
 	-webkit-text-fill-color: transparent !important;
 	text-decoration: none !important;
+}
+
+.bold {
+	font-weight: 800;
+	
 }
 
 .intro header p {
@@ -30,6 +36,15 @@
 
 .content ul p {
 	padding: 1.25rem 0;
+}
+
+/* background effect */
+
+
+
+#particles-js {
+	padding-top: 75px !important;
+	background: black;
 }
 
 html, body, div, span, applet, object,
@@ -2346,6 +2361,8 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		
+		min-width: 100% !important;
 	}
 
 		.icon:before {
@@ -3248,6 +3265,7 @@ input, select, textarea {
 		width: 100vw;
 		padding: 0 0 10rem 0;
 		
+		
 	}
 	
 		#wrapper:before {
@@ -3320,7 +3338,7 @@ input, select, textarea {
 		}
 		
 			#wrapper > section > header:before {
-				background: linear-gradient(-25deg, #ef32d9b0 0%, rgba(137, 255, 253, 0.677) 95%, #ef32d9a3 100%);
+				background: white;
 				content: '';
 				display: block;
 				margin-top: 1rem;
@@ -3333,7 +3351,7 @@ input, select, textarea {
 			}
 
 				#wrapper > section > header h1:before, #wrapper > section > header h2:before {
-					background: #ef32d9ca;
+					background: white;
 					content: '';
 					display: block;
 					height: 2px;
@@ -3342,7 +3360,7 @@ input, select, textarea {
 				}
 
 				#wrapper > section > header h1:after, #wrapper > section > header h2:after {
-					background: #ef32d9b0;
+					background: white;
 					border-radius: 0.5rem;
 					content: '';
 					display: block;
@@ -3399,7 +3417,7 @@ input, select, textarea {
 			}
 
 			#wrapper > section:last-of-type > header:after {
-				background: #43d9b8;
+				background: white;
 				border-radius: 0.5rem;
 				bottom: -1.5rem;
 				content: '';
