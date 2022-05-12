@@ -24,6 +24,13 @@ background-image: linear-gradient(45deg, #FA8BFF 5%, #2BD2FF 50%, #2BFF88 95%);
 	
 }
 
+.fit {
+	width: 100% !important;
+	height: auto;
+	object-fit: cover !important;
+	
+}
+
 .intro header p {
 	font-weight: 600;
 	letter-spacing: 0.15em !important;
@@ -31,10 +38,20 @@ background-image: linear-gradient(45deg, #FA8BFF 5%, #2BD2FF 50%, #2BFF88 95%);
 	font-size: 0.82em !important; 
 }
 
+.mobile img {
+	width: 100% !important;
+	height: auto;
+	
+	object-fit: contain !important;
+}
 
 
 .content ul p {
 	padding: 1.25rem 0;
+}
+
+p span {
+	font-weight: 700;
 }
 
 /* background effect */
@@ -270,7 +287,8 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 0.875rem;
+		font-size: 1.15rem;
+		font-weight: 700;
 	}
 
 	h4 {
@@ -3389,7 +3407,7 @@ input, select, textarea {
 			}
 
 				#wrapper > section > .content > section:first-child {
-					margin-top: 2rem;
+					margin-top: 10rem;
 				}
 
 			#wrapper > section.intro {
