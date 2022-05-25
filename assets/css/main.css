@@ -54,6 +54,11 @@ p span {
 	font-weight: 600;
 }
 
+.radius {
+	border-radius: 8px;
+}
+
+
 /* background effect */
 
 
@@ -3014,6 +3019,7 @@ input, select, textarea {
 
 			.gallery a.landscape {
 				width: 100%;
+				
 			}
 
 				.gallery a.landscape img {
@@ -3190,6 +3196,7 @@ input, select, textarea {
 
 					.gallery a.landscape img {
 						height: 20rem;
+						
 					}
 
 					.gallery a.portrait img {
