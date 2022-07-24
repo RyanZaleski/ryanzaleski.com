@@ -3817,11 +3817,11 @@ input, select, textarea {
 					}
 
 					#wrapper > section > .content {
-						padding: 4rem 4rem;
+						padding: 2rem 4rem;
 					}
 
 						#wrapper > section > .content > section {
-							margin: 4rem 0;
+							margin: 2rem 0;
 						}
 
 					#wrapper > section > footer {
@@ -3858,6 +3858,7 @@ input, select, textarea {
 
 					#wrapper > section > .content > section {
 						margin: 3rem 0;
+						
 					}
 
 				#wrapper > section > footer {
@@ -3866,6 +3867,8 @@ input, select, textarea {
 
 				#wrapper > section.intro > header {
 					padding: 5.5rem 2rem 2.5rem 2rem;
+					border: 1px solid red;
+					height: 90vh;
 				}
 
 			#wrapper .copyright {
@@ -3894,6 +3897,7 @@ input, select, textarea {
 
 					#wrapper > section > .content > section {
 						margin: 2.25rem 0;
+						
 					}
 
 				#wrapper > section > footer {
@@ -3902,6 +3906,7 @@ input, select, textarea {
 
 				#wrapper > section.intro > header {
 					padding: 4.875rem 1.5rem 1.875rem 1.5rem;
+					
 				}
 
 			#wrapper .copyright {
