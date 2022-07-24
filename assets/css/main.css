@@ -2695,7 +2695,7 @@ input, select, textarea {
 				}
 
 				ul.items > li > :last-child {
-					margin-bottom: 0;
+					margin-bottom: 0;  
 				}
 
 				ul.items > li:last-child {
@@ -2703,6 +2703,31 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 736px) {
+
+			.from-left{
+				transform: translateX(-60%);
+				z-index: 0;
+			  }
+			  
+			  .from-right{
+				transform: translateX(60%);
+				z-index: 0;
+			  }
+			  
+			  .from-left,
+			  .from-right {
+				transition: opacity 800ms ease-in,
+							transform 800ms ease-in;
+				opacity: 0;
+				z-index: 0;
+			  }
+			  
+			  .from-left.appear,
+			  .from-right.appear {
+				transform: translateX(0);
+				opacity: 1;
+				z-index: 0;
+			  }
 
 			ul.items > li {
 				margin: 0 0 2rem 0;
@@ -2723,6 +2748,8 @@ input, select, textarea {
 		dl dd {
 			margin-left: 1.5rem;
 		}
+
+		
 
 /* Actions */
 
