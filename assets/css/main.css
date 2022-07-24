@@ -2858,6 +2858,8 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
+			font-size: 1.5rem;
+			padding: 0px 25px 0px 0;
 		}
 
 			ul.icons li:last-child {
@@ -3871,7 +3873,7 @@ input, select, textarea {
 				margin: 3rem 0 0 0;
 			}
 
-		}
+		
 
 			#wrapper > section {
 				margin: 0;
