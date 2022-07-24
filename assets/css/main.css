@@ -3679,7 +3679,34 @@ input, select, textarea {
 				padding: 0;
 			}
 
+			section .content span {
+				color: rgb(201, 201, 201) !important;
+				font-weight: 800;
 				
+			}
+
+			.marginBottom{
+				margin-bottom: 60px !important;
+			}
+
+			.viewButton {
+				text-align: center;
+				margin-top: 25px !important;
+			}	
+
+			.recentProjects section {
+				display: flex !important;
+				flex-direction: column;
+				
+				
+				
+			}
+
+			.recentProjects h3 {
+				font-size: 1.2rem;
+			}
+
+			
 
 				#wrapper section {
 					grid-template-areas: "header" "content" "footer";
@@ -3844,6 +3871,8 @@ input, select, textarea {
 				margin: 3rem 0 0 0;
 			}
 
+		}
+
 			#wrapper > section {
 				margin: 0;
 			}
@@ -3868,7 +3897,7 @@ input, select, textarea {
 				#wrapper > section.intro > header {
 					padding: 5.5rem 2rem 2.5rem 2rem;
 					
-					height: 90vh;
+					height: 40vh;
 				}
 
 			#wrapper .copyright {
