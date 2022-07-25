@@ -13,6 +13,26 @@
 	transform: translateX(-60%);
 	z-index: 0;
   }
+
+  .iconWrapper {
+	  display: flex;
+	  align-items: center;
+	  font-size: 1.25rem;
+  }
+
+  .iconWrapper li {
+	 padding-left: 40px !important;
+  }
+
+
+  .fa-solid, .fa-searchengin{
+	position: relative;
+	top: 3px;
+	padding: 15px;
+	border-radius: 50%;
+	background: rgb(21, 21, 21);
+	
+  }
   
   .from-right{
 	transform: translateX(60%);
@@ -35,6 +55,13 @@
   }
 
 /* My own classes */
+
+
+
+.border {
+	border: 1px solid red;
+}
+
 
 #message, #name, #email {
 	color: black;
@@ -975,6 +1002,18 @@ input, select, textarea {
 
 		body {
 			background: black;
+		}
+
+		.fa-solid, .fa-searchengin{
+			position: relative;
+			top: 16px;
+			padding: 15px;
+			border-radius: 50%;
+			background: rgb(21, 21, 21);
+		}
+
+		.iconWrapper li {
+			right: 20px;
 		}
 
 
