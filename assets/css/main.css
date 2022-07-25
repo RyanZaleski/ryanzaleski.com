@@ -7,6 +7,32 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* ANIMATIONS */
+
+.from-left{
+	transform: translateX(-60%);
+	z-index: 0;
+  }
+  
+  .from-right{
+	transform: translateX(60%);
+	z-index: 0;
+  }
+  
+  .from-left,
+  .from-right {
+	transition: opacity 800ms ease-in,
+				transform 800ms ease-in;
+	opacity: 0;
+	z-index: 0;
+  }
+  
+  .from-left.appear,
+  .from-right.appear {
+	transform: translateX(0);
+	opacity: 1;
+	z-index: 0;
+  }
 
 /* My own classes */
 
@@ -2703,31 +2729,6 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 736px) {
-
-			.from-left{
-				transform: translateX(-60%);
-				z-index: 0;
-			  }
-			  
-			  .from-right{
-				transform: translateX(60%);
-				z-index: 0;
-			  }
-			  
-			  .from-left,
-			  .from-right {
-				transition: opacity 800ms ease-in,
-							transform 800ms ease-in;
-				opacity: 0;
-				z-index: 0;
-			  }
-			  
-			  .from-left.appear,
-			  .from-right.appear {
-				transform: translateX(0);
-				opacity: 1;
-				z-index: 0;
-			  }
 
 			ul.items > li {
 				margin: 0 0 2rem 0;
